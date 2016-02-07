@@ -22,6 +22,12 @@ public class Calculator {
     }
   }
 
+  public void  mul(double ... params) {
+    for (double param : params) {
+      this.result *= param;
+    }
+  }
+
   public double getResult() {
     return result;
   }
