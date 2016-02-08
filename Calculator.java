@@ -1,9 +1,9 @@
 public class Calculator {
 
   public static toBinaryString(int value) {
-
+    return Integer.toBinaryString(value);
   }
-  
+
   private double result;
 
   public Calculator() {
