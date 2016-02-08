@@ -1,5 +1,9 @@
 public class Calculator {
 
+  public static toBinaryString(int value) {
+
+  }
+  
   private double result;
 
   public Calculator() {
